@@ -1,0 +1,135 @@
+.fullWidth {
+    width: 100%;
+
+    background-color: #113159;
+
+}
+.wrapper {
+    width: 100%;
+    max-width: 1080px;
+
+    margin: 0 auto;
+    padding: 50px 23px;
+}
+.h2 {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+
+    margin-top: 0px;
+    margin-bottom: 50px;
+    /*padding: 23px;*/
+}
+
+.equipoGrid {
+    width: fit-content;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "consultores"
+        "tecnicos"
+        "auditores"
+        "abogados"
+        "expertos"
+        "formadores"
+        "gestores"
+
+    ;
+}
+.equipoGrid p {
+    color: #fff;
+    margin: 8px 0px;
+}
+.equipoGrid p svg {
+    color: #86b5d6;
+
+    margin-right: 8px;
+}
+.consultores {
+    grid-area: consultores;
+}
+.tecnicos {
+    grid-area: tecnicos;
+}
+.auditores {
+    grid-area: auditores;
+}
+.abogados {
+    grid-area: abogados;
+}
+.expertos {
+    grid-area: expertos;
+}
+.formadores {
+    grid-area: formadores;
+}
+.gestores {
+    grid-area: gestores;
+}
+
+
+
+/*.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.container * {
+    color: #fff;
+}
+.container ul {
+    list-style: none;
+    padding-inline-start: 0px;
+    margin: 0px;
+    margin-left: 23px;
+}
+.container ul li {
+    margin: 8px 0px;
+}
+.container ul li:first-child {
+    margin-top: 0px;
+}
+.container ul li svg {
+    font-size: .75rem;
+    margin: 0px 8px 1px 0px;
+}
+.container ul li svg path {
+    fill: #86b5d6;
+}*/
+
+/****************************************************************
+************************* MEDIA QUERIES *************************
+*****************************************************************/
+@media (min-width: 300px) {
+    .h2 {
+        font-size: 1.3rem;
+    }
+}
+@media (min-width: 500px) {
+    .equipoGrid {
+        grid-template-columns: 150px 1fr;
+        grid-template-areas: 
+            "consultores expertos"
+            "tecnicos formadores"
+            "auditores gestores"
+            "abogados abogados"
+        ;
+
+        margin: 0px auto;
+    }
+}
+@media (min-width: 920px) {
+    .equipoGrid {
+        grid-template-columns: 150px 300px 250px;
+        grid-template-areas: 
+            "consultores abogados formadores"
+            "tecnicos expertos gestores"
+            "auditores auditores auditores"
+        ;
+    }
+}

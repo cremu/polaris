@@ -1,0 +1,21 @@
+.wrapper {
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #113159;
+}
+.wrapper p {
+    font-weight: 300;
+    color: #fff;
+}
+.phoneLink {
+    margin: 0px 8px;
+}
+.spanBold {
+    font-weight: 500;
+}
