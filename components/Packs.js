@@ -8,14 +8,14 @@ import styles from '../styles/Packs.module.css'
 
 const Packs = () => {
     return (
-        <div className={styles.wrapper}>
+        <div className={styles.wrapper} id='Servicios'>
             <div className={styles.card}>
                 <div className={styles.cardHeader}>
                     <h2>PACK BÁSICO</h2>
                 </div>
                 <div className={styles.cardContent}>
                     <div className={styles.cardIntro}>
-                        <Image src='/illustrations/pack-basico.png' alt='Pack básico illustration' width={266.4} height={185} />
+                        <Image src='/illustrations/pack-basico.png' alt='' width={266.4} height={185} />
                         <div className={styles.text}>
                             <p>< FontAwesomeIcon icon={faCheck} />Adaptación RGPD</p>
                             <p>< FontAwesomeIcon icon={faCheck} />Píldora formativa</p>
@@ -33,7 +33,7 @@ const Packs = () => {
                 </div>
                 <div className={styles.cardContent}>
                     <div className={styles.cardIntro}>
-                        <Image src='/illustrations/pack-completo.png' alt='Pack básico illustration' width={266.4} height={185} />
+                        <Image src='/illustrations/pack-completo.png' alt='' width={266.4} height={185} />
                         <div className={styles.text}>
                             <p>< FontAwesomeIcon icon={faCheck} />Adaptación RGPD</p>
                             <p>< FontAwesomeIcon icon={faCheck} />Píldora formativa</p>

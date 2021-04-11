@@ -13,7 +13,7 @@ const PackBasico = () => {
                     <p>Te ayudamos a cumplir lo que estrictamente marca la ley</p>
                     <p>Desde <span>125€</span></p>
                     <p className={styles.emailLink}>
-                        <a href="mailto:testr@test.com">Solicitar</a>
+                        <a href="/dejanos-guiarte">Solicitar</a>
                     </p>
                 </div>
                 <div className={styles.cardContent}>

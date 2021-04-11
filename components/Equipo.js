@@ -31,20 +31,6 @@ const Equipo = () => {
                         <div className={styles.gestores}>
                             <p>< FontAwesomeIcon icon={faCheck} />Gestores administrativos</p>
                         </div>
-
-
-
-
-
-
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-
                     </div>
                 </div>
             </div>

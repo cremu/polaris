@@ -9,19 +9,19 @@ const Highlights = () => {
                 <h2 className={styles.h2}>Nos engardamos de <span className={styles.spanCyan}>todo</span></h2>
                 <div className={styles.container}>
                     <div className={styles.item}>
-                        <Image src='/illustrations/highlights-lupa-cyan.png' alt='Ilustración lupa polaris' width={130} height={130} />
+                        <Image src='/illustrations/highlights-lupa-cyan.png' alt='' width={130} height={130} />
                         <p>Evaluar adecuadamente los tratamientos de datos</p>
                     </div>
                     <div className={styles.item}>
-                        <Image src='/illustrations/highlights-martillo-cyan.png' alt='Ilustración martillo polaris' width={130} height={130} />
+                        <Image src='/illustrations/highlights-martillo-cyan.png' alt='' width={130} height={130} />
                         <p>Implementar medidas de seguridad eficaces</p>
                     </div>
                     <div className={styles.item}>
-                        <Image src='/illustrations/highlights-escudo-cyan.png' alt='Ilustración escudo polaris' width={130} height={130} />
+                        <Image src='/illustrations/highlights-escudo-cyan.png' alt='' width={130} height={130} />
                         <p>Designar responsables del cumplimiento normativo</p>
                     </div>
                     <div className={styles.item}>
-                        <Image src='/illustrations/highlights-personas-cyan.png' alt='Ilustración formación polaris' width={130} height={130} />
+                        <Image src='/illustrations/highlights-personas-cyan.png' alt='' width={130} height={130} />
                         <p>Extender el cumplimiento a toda la empresa</p>
                     </div>
                 </div>

@@ -5,10 +5,14 @@ import Footer from './Footer.js'
 import Meta from './Meta'
 import ContactBanner from './ContactBanner'
 
+import { DefaultSeo } from 'next-seo'
+import SEO from '../next-seo.config'
+
+
 const Layout = ({children}) => {
     return (
         <>
-            <Meta />
+            < DefaultSeo {...SEO} />
             < Navigation />
             < ContactBanner />
             <div className={styles.container}>

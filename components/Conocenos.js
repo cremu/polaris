@@ -15,7 +15,7 @@ const Conocenos = () => {
                     a la Calidad, para ofrecer una óptima adaptación a la nueva legislación.
                     </p>
                     <div className={styles.illustration}>
-                        <Image src='/illustrations/conocenos.png' alt='Ilustración conocenos polaris' width={549} height={280} />
+                        <Image src='/illustrations/conocenos.png' alt='' width={549} height={280} />
                     </div>
                 </div>
 

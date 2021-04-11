@@ -1,8 +1,9 @@
 import Link from 'next/link'
 
-import Meta from '../components/Meta'
 import styles from '../styles/ArticulosPage.module.css'
 import PostCard from '../components/PostCard.js'
+
+import { NextSeo } from 'next-seo'
 
 let client = require('contentful').createClient({
     space: process.env.CONTENTFUL_SPACE_ID,
@@ -24,9 +25,14 @@ export async function getStaticProps() {
 
 const ArticulosPage = ({ posts }) => {
 
+    const SEO = {
+        title: 'Polaris | Blog',
+        description: 'Blog para estar informado de estrategias de protección de datos y privaciad relevantes para tu empresa'
+    }
+
     return (
         <>
-            <Meta title='Polaris | Blog'/>
+            < NextSeo {...SEO} />
             <div className={styles.postsContainer}>
                 <ul className={styles.postsWrapper}>
                     {

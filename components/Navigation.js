@@ -19,7 +19,7 @@ const Navigation = () => {
             <nav className={styles.navWrapper}>
 
                 <div className={styles.navHeader}>
-                    <Link href='/'><a><Image src='/illustrations/polaris-navy.png' alt='Logo polaris' width={175} height={60.34} /></a></Link>
+                    <Link href='/'><a><Image src='/illustrations/polaris-navy.png' alt='Ilustración del logo de Polaris' width={175} height={60.34} /></a></Link>
                     <div className={styles.iconToggleMenu} onClick={toggleMenu}>
                         {
                             menuState ?
@@ -33,7 +33,7 @@ const Navigation = () => {
                 <div className={`${styles.navLinks} ${menuState ? styles.displayFlex : ''}`}>
 
                     <div className={`${styles.item} ${styles.servicios}`}>
-                        <a>
+                        <a href='/#Servicios'>
                             <span>Servicios</span>
                         </a>
                         <div className={styles.dropdown}>
