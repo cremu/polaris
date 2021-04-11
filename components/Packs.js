@@ -42,7 +42,7 @@ const Packs = () => {
                             <p>< FontAwesomeIcon icon={faCheck} />Masterclass específica</p>
                         </div>
                     </div>
-                    <p className={styles.linkPack}><Link href='/servicios/pack-basico'><a>Más información</a></Link></p>
+                    <p className={styles.linkPack}><Link href='/servicios/pack-completo'><a>Más información</a></Link></p>
                 </div>
                 <div className={styles.styleBar}></div>
             </div>
