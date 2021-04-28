@@ -13,6 +13,7 @@ let client = require('contentful').createClient({
 export async function getStaticProps() {
     let data = await client.getEntries({
         content_type: 'article',
+        order: '-fields.date'
     })
 
     return {

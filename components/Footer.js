@@ -22,9 +22,9 @@ const Footer = () => {
                     </div>
                     <div className={styles.legal}>
                         <ul>
-                            <li><Link href='/'><a>Aviso Legal</a></Link></li>
-                            <li><Link href='/'><a>Política de privacidad</a></Link></li>
-                            <li><Link href='/'><a>Política de cookies</a></Link></li>
+                            <li><Link href='/legal'><a>Aviso Legal</a></Link></li>
+                            <li><Link href='/legal'><a>Política de privacidad</a></Link></li>
+                            <li><Link href='/legal'><a>Política de cookies</a></Link></li>
                         </ul>
                     </div>
                     <div className={styles.contacto}>

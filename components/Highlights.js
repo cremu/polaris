@@ -6,7 +6,7 @@ const Highlights = () => {
         <div className={styles.fullWidth}>
 
             <div className={styles.wrapper}>
-                <h2 className={styles.h2}>Nos engardamos de <span className={styles.spanCyan}>todo</span></h2>
+                <h2 className={styles.h2}>Nos encargamos de <span className={styles.spanCyan}>todo</span></h2>
                 <div className={styles.container}>
                     <div className={styles.item}>
                         <Image src='/illustrations/highlights-lupa-cyan.png' alt='' width={130} height={130} />
