@@ -34,13 +34,15 @@
     justify-content: flex-start;
     align-items: center;
 
-
     color: #fff;
 
     padding: 15px 8px 15px 8px;
 }
 .polaris *, .links *, .legal *, .contacto * {
     font-size: .85rem;
+}
+.polaris a:hover, .links a:hover, .legal a:hover, .contacto a:hover {
+    color: #86b5d6;
 }
 
 /******************** POLARIS *******************/
@@ -75,6 +77,7 @@
     grid-area: contacto;
 }
 .contacto p {
+    font-weight: 700;
     margin: 0px;
     margin-bottom: 8px;
 }
@@ -82,6 +85,7 @@
     margin-top: 16px;
 }
 .signature p {
+    font-weight: 400;
     text-align: center;
     color: #86b5d6;
 }
@@ -93,8 +97,11 @@
     .polaris, .links, .legal, .contacto {
         padding: 23px 23px 23px 23px;
     }
-    .polaris *, .links *, .legal *, .contacto * {
+    .links *, .legal *, .contacto * {
         font-size: 1rem;
+    }
+    .polaris * {
+        font-size: .9rem;
     }
 }
 @media (min-width: 550px) {
@@ -128,7 +135,7 @@
         text-align: left;
     }
 }
-@media (min-width: 950px) {
+@media (min-width: 980px) {
     .footerGrid {
         width: 100%;
         max-width: 1080px;

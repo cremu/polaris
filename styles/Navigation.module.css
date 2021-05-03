@@ -21,6 +21,9 @@
 
     padding-bottom: 23px;
 }
+.iconToggleMenu {
+    margin-top: 30px;
+}
 .navLinks {
     width: 100%;
 
@@ -124,7 +127,7 @@
     }
     .iconToggleMenu {
         display: none;
-        margin-top: 28px;
+        /*margin-top: 28px !important;*/
     }
     .navLinks {
         width: 100% !important;

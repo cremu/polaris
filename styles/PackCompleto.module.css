@@ -116,6 +116,13 @@
     font-weight: 500;
     color: #113159;
 }
+.emailLink:hover {
+    background-color: #86b5d6;
+}
+.emailLink:hover a {
+    color: #fff;
+}
+
 .phoneLink a {
     font-size: 1.5rem;
     font-weight: 700;
@@ -171,6 +178,7 @@
 }*/
 .documentacion {
     position: relative;
+    font-weight: 700;
     color: #86b5d6;
 
     margin: 15px 0px 15px 40px;

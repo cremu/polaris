@@ -15,7 +15,7 @@
 
     box-shadow: 0px 0px 15px rgb(0 0 0 / 45%);
 
-    margin: 23px
+    margin: 23px;
 }
 
 /****************** HEADER *****************/
@@ -32,7 +32,7 @@
 
 /***************** CONTENT ****************/
 .cardContent {
-    height: 520px;
+    min-height: 520px;
 
     display: flex;
     flex-direction: column;
@@ -58,15 +58,20 @@
 .linkPack {
     width: fit-content;
 
+    font-size: 1rem;
     font-weight: 500;
     line-height: 1.75rem;
 
+    text-align: center;
     color: #fff;
     background-color: #113159;
     border-radius: 3px;
 
     padding: 8px 16px;
     margin: 0px auto 23px auto;
+}
+.linkPack:hover {
+    background-color: #86b5d6;
 }
 .styleBar {
     height: 23px;
@@ -78,6 +83,6 @@
 /****************************************************************
 ************************* MEDIA QUERIES *************************
 *****************************************************************/
-@media (min-width: 1000px) {
+@media (min-width: 300px) {
 
 }

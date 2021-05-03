@@ -38,7 +38,8 @@ const Navigation = () => {
                         </a>
                         <div className={styles.dropdown}>
                             <Link href='/servicios/pack-basico'><a className={styles.subitem} onClick={toggleMenu}>Pack Básico</a></Link>
-                            <Link href='/servicios/pack-completo'><a className={styles.subitem} onClick={toggleMenu}>Pack Completo <span className={styles.tag}>NUEVO</span></a></Link>
+                            <Link href='/servicios/pack-completo'><a className={styles.subitem} onClick={toggleMenu}>Pack Completo</a></Link>
+                            <Link href='/servicios/plan-igualdad-empresas'><a className={styles.subitem} onClick={toggleMenu}>Plan de Igualdad <span className={styles.tag}>NUEVO</span></a></Link>
                         </div>
                     </div>
   

@@ -23,6 +23,7 @@
     margin: 0px;
 }
 .header h1 {
+    font-family: 'ScalaSans', 'PublicSans', sans-serif !important;
     font-size: 1.85rem;
     color: #86b5d6;
 }

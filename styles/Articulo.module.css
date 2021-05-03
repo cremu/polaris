@@ -41,6 +41,9 @@
 .postContent {
     color: #113159;
 }
+.postContent * {
+    line-height: 1.75rem;
+}
 .postContent ol, .postContent ul {
     padding-inline-start: 40px;
 }
@@ -48,7 +51,7 @@
     padding-inline-start: 20px;
 }
 
-.backButton{
+.backButton {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -65,6 +68,9 @@
     padding: 5px 10px;
 
     margin: 0px auto;
+}
+.backLink:hover {
+    background-color: #86b5d6;
 }
 
 /****************************************************************

@@ -8,7 +8,7 @@ const Consultoria = () => {
                 </div>
                 <div className={styles.itemText}>
                     <p>El cliente sabe en todo momento como avanza su adaptación y cuales son los pasos a seguir.</p>
-                    <p>Y tiene la seguridad de una <span className={styles.spanCyan}>adaptación completa</span> porque incluye también el cumplimineto responsable de los trabajadores, a través de la <span className={styles.spanCyan}>formación.</span></p>
+                    <p>Tiene la seguridad de una <span className={styles.spanCyan}>adaptación completa</span> porque incluye también el cumplimineto responsable de los trabajadores, a través de la <span className={styles.spanCyan}>formación.</span></p>
                 </div>
             </div>
 

@@ -9,7 +9,7 @@ const Footer = () => {
             <footer className={styles.footer}>
                 <div className={styles.footerGrid}>
                     <div className={styles.polaris}>
-                        <Image src='/illustrations/polaris-cyan.png' alt='Ilustración del Logo de Polaris' width={135} height={46.55} />
+                        <Image src='/illustrations/polaris-cyan.png' alt='' width={135} height={46.55} />
                         <p>Carrer Compte Güell, 54 4º 1º</p>
                         <p>08028 Barcelona</p>
                     </div>
@@ -32,7 +32,7 @@ const Footer = () => {
                         <p><a href="tel:+34690093663">690 093 663</a></p>
                         <div className={styles.signature}>
                             <p>Polaris.</p>
-                            <p>Derechos reservados.</p>
+                            <p> &#169; Derechos reservados.</p>
                         </div>
 
                     </div>                    

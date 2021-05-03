@@ -83,6 +83,9 @@
     padding: 8px 16px;
     margin: 23px 35px 23px 0px;
 }
+.link a:hover {
+    background-color: #86b5d6;
+}
 /******************** DECO *******************/
 .deco {
     grid-area: deco;

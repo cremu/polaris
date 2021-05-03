@@ -1,9 +1,19 @@
 import Image from 'next/image'
+import Head from 'next/head'
+
 import styles from '../styles/Conocenos.module.css'
 
 const Conocenos = () => {
     return (
         <>
+            <Head>
+                <link
+                    rel="preload"
+                    href="/fonts/ScalaSans-BoldItalic.woff"
+                    as="font"
+                    crossOrigin=""
+                />
+            </Head>
             <div className={styles.container}>
                 <div className={styles.header}>
                     <h1>Let us guide you</h1>

@@ -10,7 +10,7 @@ const PackCompleto = () => {
             <div className={styles.cardGrid}>
                 <div className={styles.cardHeader}>
                     <h1>PACK COMPLETO</h1>
-                    <p>Te ayudamos a cumplir lo que estrictamente marca la ley</p>
+                    <p>Te aportamos cobertura integral en materia de protección de datos</p>
                     <p>Desde <span>250€</span></p>
                     <p className={styles.emailLink}>
                         <a href="/dejanos-guiarte">Solicitar</a>
