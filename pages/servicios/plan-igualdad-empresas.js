@@ -6,9 +6,18 @@ import styles from '../../styles/PlanIgualdad.module.css'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+import { NextSeo } from 'next-seo'
+
 const PlanIgualdad = () => {
+
+    const SEO = {
+        title: 'Polaris | Plan de Igualdad',
+        description: 'El servicio integral de Plan de Igualdad de Polaris ayuda a tu empresa a cumplir con el Plan de Igualdad'
+    } 
+
     return (
         <>
+            < NextSeo {...SEO} />
             <div className={styles.container}>
                 <div className={styles.headerIntro}>
                     <h1>
@@ -64,7 +73,7 @@ const PlanIgualdad = () => {
                     <div className={styles.packsIgualdadWrapper}>
                         <div className={styles.card}>
                             <div className={styles.cardHeader}>
-                                <h2>Empresas con menos de <br /> 50 trabajadores</h2>
+                                <h2>Empresas con <span className={styles.spanCyan}>menos de <br /> 50 trabajadores</span></h2>
                             </div>
                             <div className={styles.cardContent}>
                                 <div className={styles.cardIntro}>
@@ -84,7 +93,7 @@ const PlanIgualdad = () => {
 
                         <div className={styles.card}>
                             <div className={styles.cardHeader}>
-                                <h2>Empresas con más de <br /> 50 trabajadores</h2>
+                                <h2>Empresas con <span className={styles.spanCyan}>más de <br /> 50 trabajadores</span></h2>
                             </div>
                             <div className={styles.cardContent}>
                                 <div className={styles.cardIntro}>

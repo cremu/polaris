@@ -64,9 +64,12 @@
 @media (min-width: 360px) {
     .header h2 {
         font-size: 1.3rem;
-    }    
+    }
+    .container {
+        padding: 50px 23px 50px 73px;
+    }
 }
-@media (min-width: 659px) {
+@media (min-width: 706px) {
     .text {
         margin-top: 0px;
     }

@@ -5,6 +5,8 @@ import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 
 import styles from '../../styles/Articulo.module.css'
 
+import { NextSeo } from 'next-seo'
+
 
 let client = require('contentful').createClient({
     space: process.env.CONTENTFUL_SPACE_ID,
@@ -90,22 +92,31 @@ const Post = ({ post }) => {
     if(!post){
         return <div>404</div>
     } else {
+
+        const SEO = {
+            title: `Polaris | ${post.fields.title}`,
+            description: `${post.fields.summary}`
+        }
+
         return (
-            <div className={styles.container}>
-                <div className={styles.postImage}>
-                    < Image className={styles.image} src={'https:' + post.fields.picture.fields.file.url} width={post.fields.picture.fields.file.details.image.width} height={post.fields.picture.fields.file.details.image.height} alt='' />
-                </div>            
-                <div className={styles.postEntry}>
-                    <h1 className={styles.postTitle}>{post.fields.title}</h1>
-                    <p className={styles.postDate}>Polaris / {parsedDate} </p>
-                    <div className={styles.postContent}>
-                        {documentToReactComponents(post.fields.content)}
+            <>
+                < NextSeo {...SEO} />
+                <div className={styles.container}>
+                    <div className={styles.postImage}>
+                        < Image className={styles.image} src={'https:' + post.fields.picture.fields.file.url} width={post.fields.picture.fields.file.details.image.width} height={post.fields.picture.fields.file.details.image.height} alt='' />
+                    </div>            
+                    <div className={styles.postEntry}>
+                        <h1 className={styles.postTitle}>{post.fields.title}</h1>
+                        <p className={styles.postDate}>Polaris / {parsedDate} </p>
+                        <div className={styles.postContent}>
+                            {documentToReactComponents(post.fields.content)}
+                        </div>
+                        <div className={styles.backButton}>
+                            <Link href="/blog"><a className={styles.backLink}>Ver más entradas</a></Link>
+                        </div>         
                     </div>
-                    <div className={styles.backButton}>
-                        <Link href="/blog"><a className={styles.backLink}>Ver más entradas</a></Link>
-                    </div>         
                 </div>
-            </div>
+            </>
         );
     }
 }

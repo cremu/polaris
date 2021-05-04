@@ -23,7 +23,13 @@
 }
 
 /* POST ENTRY */
+.postEntry {
+    max-width: 85%;
+
+    margin: 0px auto;
+}
 .postTitle {
+    text-align: center;
     font-size: 1.3rem;
     font-weight: 700;
     color: #113159;
@@ -32,6 +38,7 @@
     margin-bottom: 15px;
 }
 .postDate {
+    text-align: center;
     font-weight: 400;
     color: #86b5d6;
 

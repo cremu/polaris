@@ -17,7 +17,8 @@
 }
 .headerIntro h1 {
     font-size: 1.15rem;
-    font-weight: 400;
+    font-weight: 700;
+    line-height: 2rem;
     color: #113159;
     margin: 0px;
 }

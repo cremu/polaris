@@ -28,7 +28,7 @@ const ArticulosPage = ({ posts }) => {
 
     const SEO = {
         title: 'Polaris | Blog',
-        description: 'Blog para estar informado de estrategias de protección de datos y privaciad relevantes para tu empresa'
+        description: 'Con el blog de Polaris podrás estar informado de estrategias de protección de datos y privaciad relevantes para tu empresa'
     }
 
     return (

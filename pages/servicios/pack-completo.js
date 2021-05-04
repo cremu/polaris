@@ -5,7 +5,7 @@ import { NextSeo } from 'next-seo'
 export default function PackCompletoPage() {
 
   const SEO = {
-    title: 'Polaris | Servicios',
+    title: 'Polaris | Pack Completo',
     description: 'El servicio Pack Completo de Polaris ayuda a tu empresa a cumplir con el Reglamento de Protección de Datos RGPD'
   }
 
