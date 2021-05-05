@@ -22,7 +22,7 @@ export async function getStaticPaths() {
         paths: data.items.map(item => ({
             params: { slug: item.fields.slug}
         })),
-        fallback: true,
+        fallback: false,
     };
 }
 export async function getStaticProps({ params }) {
@@ -92,7 +92,6 @@ const Post = ({ post }) => {
     if(!post){
         return <div>404</div>
     } else {
-
         const SEO = {
             title: `Polaris | ${post.fields.title}`,
             description: `${post.fields.summary}`
