@@ -15,7 +15,7 @@ const Packs = () => {
                 </div>
                 <div className={styles.cardContent}>
                     <div className={styles.cardIntro}>
-                        <Image src='/illustrations/pack-basico.png' alt='' width={266.4} height={185} />
+                        <Image src='/illustrations/pack-basico-2.gif' alt='' width={266.4} height={149.83} />
                         <div className={styles.text}>
                             <p>< FontAwesomeIcon icon={faCheck} />Adaptación RGPD</p>
                             <p>< FontAwesomeIcon icon={faCheck} />Píldora formativa</p>
@@ -33,7 +33,7 @@ const Packs = () => {
                 </div>
                 <div className={styles.cardContent}>
                     <div className={styles.cardIntro}>
-                        <Image src='/illustrations/pack-completo.png' alt='' width={266.4} height={185} />
+                        <Image src='/illustrations/pack-completo-2.gif' alt='' width={266.4} height={149.83} />
                         <div className={styles.text}>
                             <p>< FontAwesomeIcon icon={faCheck} />Adaptación RGPD</p>
                             <p>< FontAwesomeIcon icon={faCheck} />Píldora formativa</p>
