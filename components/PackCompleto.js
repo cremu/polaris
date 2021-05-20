@@ -35,7 +35,7 @@ const PackCompleto = () => {
                     <p>¿Necesitas más información?</p>
                     <p>Estamos aquí para ti</p>
                     <p className={styles.phoneLink}><a href="tel:+34690093663">< FontAwesomeIcon icon={faPhoneAlt} />690 093 663</a></p>
-                    <p>También puedes escribirnos <a href="mailto:testr@test.com">aquí</a></p>
+                    <p>También <a href="mailto:testr@test.com">puedes escribirnos aquí</a></p>
                 </div>
                 <div className={styles.recomendado}>
                     <p>RECOMENDADO</p>

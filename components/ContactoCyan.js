@@ -15,7 +15,7 @@ const ContactoCyan = () => {
                 </div>
                 <div className={styles.mail}>
                     <p>En Polaris encontrarás siempre a un profesional al otro lado del teléfono que <span className={styles.spanNavy}>te guiará</span>.</p>
-                    <p>Si lo prefieres puedes escribirnos <span className={styles.spanNavy}><a href="mailto:test@test.com">aquí</a></span>.</p>
+                    <p>Si lo prefieres <span className={styles.spanNavy}><a href="mailto:polarisdata@polarisdata.es">puedes escribirnos aquí</a></span>.</p>
                 </div>
                 <div className={styles.star}>
                     <Image src='/illustrations/animation-star-cyan.gif' alt='' width={120} height={120}/>

@@ -134,18 +134,30 @@
 
 /***************** CONTENT ****************/
 .cardContent {
-    min-height: 450px;
+    min-height: 475px;
 
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
 
-    justify-content: space-between;
+    justify-content: flex-start;
 
-    padding: 23px;
+    padding: 23px 23px 46px 23px;
 }
+.price {
+    color: #113159;
+    text-align: center;
+    line-height: 1.75rem;
+
+    margin: 12px 0px;
+}
+.price span {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
 .text {
-    margin: 32px auto 0px auto;
+    margin: 32px auto 32px auto;
 }
 .text p {
     color: #113159;
@@ -168,7 +180,7 @@
     border-radius: 3px;
 
     padding: 8px 16px;
-    margin: 23px auto 23px auto;
+    margin: auto auto 0px auto;
 }
 .linkPack:hover {
     background-color: #86b5d6;

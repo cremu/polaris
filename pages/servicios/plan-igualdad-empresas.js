@@ -77,6 +77,7 @@ const PlanIgualdad = () => {
                             </div>
                             <div className={styles.cardContent}>
                                 <div className={styles.cardIntro}>
+                                    <p className={styles.price}>Desde <span>950€</span></p>
                                     <div className={styles.text}>
                                         <p>< FontAwesomeIcon icon={faCheck} />Recopilación de datos</p>
                                         <p>< FontAwesomeIcon icon={faCheck} />Diagnóstico</p>
@@ -97,6 +98,7 @@ const PlanIgualdad = () => {
                             </div>
                             <div className={styles.cardContent}>
                                 <div className={styles.cardIntro}>
+                                    <p className={styles.price}>Desde <span>1500€</span></p>
                                     <div className={styles.text}>
                                         <p>< FontAwesomeIcon icon={faCheck} />Recopilación de datos</p>
                                         <p>< FontAwesomeIcon icon={faCheck} />Creación del grupo de trabajo</p>

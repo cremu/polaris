@@ -10,7 +10,7 @@ const PackBasico = () => {
             <div className={styles.cardGrid}>
                 <div className={styles.cardHeader}>
                     <h1>PACK BÁSICO</h1>
-                    <p>Te aportamos cobertura integral en materia de protección de datos</p>
+                    <p>Te ayudamos a cumplir lo que estrictamente marca la ley</p>
                     <p>Desde <span>125€</span></p>
                     <p className={styles.emailLink}>
                         <a href="/dejanos-guiarte">Solicitar</a>
@@ -33,7 +33,7 @@ const PackBasico = () => {
                     <p>¿Necesitas más información?</p>
                     <p>Estamos aquí para ti</p>
                     <p className={styles.phoneLink}><a href="tel:+34690093663">< FontAwesomeIcon icon={faPhoneAlt} />690 093 663</a></p>
-                    <p>También puedes escribirnos <a href="mailto:testr@test.com">aquí</a></p>
+                    <p>También <a href="mailto:testr@test.com">puedes escribirnos aquí</a></p>
                 </div>
             </div>
 
